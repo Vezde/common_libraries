@@ -1,0 +1,35 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home-local/senaneuc/Documents/Projet_Dumby_2K18/libraire_superviseur/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f7db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f7db.dir/build.make CMakeFiles/cmTC_8f7db.dir/build
+make[1] : on entre dans le répertoire « /home-local/senaneuc/Documents/Projet_Dumby_2K18/libraire_superviseur/cmake-build-debug/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_8f7db.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8f7db.dir/CheckSymbolExists.c.o   -c /home-local/senaneuc/Documents/Projet_Dumby_2K18/libraire_superviseur/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8f7db
+/home-local/senaneuc/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5540.8/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f7db.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8f7db.dir/CheckSymbolExists.c.o  -o cmTC_8f7db 
+CMakeFiles/cmTC_8f7db.dir/CheckSymbolExists.c.o : Dans la fonction « main » :
+CheckSymbolExists.c:(.text+0x16) : référence indéfinie vers « pthread_create »
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8f7db.dir/build.make:97 : la recette pour la cible « cmTC_8f7db » a échouée
+make[1]: *** [cmTC_8f7db] Erreur 1
+make[1] : on quitte le répertoire « /home-local/senaneuc/Documents/Projet_Dumby_2K18/libraire_superviseur/cmake-build-debug/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_8f7db/fast » a échouée
+make: *** [cmTC_8f7db/fast] Erreur 2
+
+File /home-local/senaneuc/Documents/Projet_Dumby_2K18/libraire_superviseur/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

@@ -1,0 +1,13 @@
+{
+  "start": "u",
+  "stop": "y",
+  "wdStart": "z",
+  "wdReset": "r",
+  "bat": "V",
+  "version": "v",
+  "busy": "b",
+  "confirm":"O",
+  "infirm": "C",
+  "move": "M",
+  "turn": "T"
+}

@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="libraire_superviseur" targetName="gtest" />
+      <config projectName="libraire_superviseur" targetName="gmock_main" />
+      <config projectName="libraire_superviseur" targetName="gmock" />
+      <config projectName="libraire_superviseur" targetName="gtest_main" />
+      <config projectName="libraire_superviseur" targetName="libraire_superviseur" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5232a53d-e324-4fd8-a109-dab99386c726" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagramme_composant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dumby/robot_command.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/allocators.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/cursorstreamwrapper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/document.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/encodedstream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/encodings.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/error/en.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/error/error.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/filereadstream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/filewritestream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/fwd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/internal/biginteger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/internal/diyfp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/internal/dtoa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/internal/ieee754.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/internal/itoa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/internal/meta.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/internal/pow10.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/internal/regex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/internal/stack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/internal/strfunc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/internal/strtod.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/internal/swap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/istreamwrapper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/memorybuffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/memorystream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/msinttypes/inttypes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/msinttypes/stdint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/ostreamwrapper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/pointer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/prettywriter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/rapidjson.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/reader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/schema.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/stream.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/stringbuffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rapidjson/writer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common/src/Tcp_server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common/src/Tcp_server.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dumby/include/Camera.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dumby/include/Camera.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dumby/include/Robot.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dumby/include/Robot.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dumby/src/Camera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dumby/src/Camera.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/dumby/src/Robot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/dumby/src/Robot.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/segway/include/MessageSegway.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/segway/include/MessageSegway.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="1456402728">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="2" />
+          <entry key="json" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="ObjectiveC" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="82" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="82" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/dumby/src/Camera.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/segway/include/MessageSegway.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="360">
+                <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/segway/include/Segway.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/dumby/include/Robot.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" selection-start-line="43" selection-end-line="50" />
+              <folding>
+                <element signature="e#119#138#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/dumby/robot_command.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/dumby/src/Img.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2670">
+              <caret line="178" column="21" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/dumby/src/Robot.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3765">
+              <caret line="251" column="1" selection-start-line="251" selection-start-column="1" selection-end-line="251" selection-end-column="1" />
+              <folding>
+                <element signature="e#43#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/common/src/Tcp_server.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="16" selection-start-line="16" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>api_cmd</find>
+      <find>get_status</find>
+      <find>Status</find>
+      <find>~</find>
+      <find>broad</find>
+      <find>data_rx</find>
+      <find>get_D</find>
+      <find>data</find>
+      <find>status</find>
+      <find>image</find>
+      <find>robot</find>
+      <find>comp</find>
+      <find>cr</find>
+      <find>cropArena</find>
+      <find>nbrTria</find>
+      <find>nbr</find>
+      <find>nbrTri</find>
+      <find>n</find>
+      <find>segwa</find>
+      <find>Message</find>
+      <find>Img</find>
+      <find>main</find>
+      <find>main.cpp</find>
+      <find>Xbee_Message</find>
+      <find>xbee_message_test.cpp</find>
+      <find>tcp_test.cp</find>
+      <find>confirm</find>
+      <find>robot_send</find>
+      <find>réuss</find>
+      <find>googleT</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Lucien_Senaneuch" />
+        <option value="Lucien Senaneuch" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Xbee.h" />
+        <option value="$PROJECT_DIR$/Xbee.cpp" />
+        <option value="$PROJECT_DIR$/Xbee.h" />
+        <option value="$PROJECT_DIR$/Xbee_Message.cpp" />
+        <option value="$PROJECT_DIR$/Xbee_Message.h" />
+        <option value="$PROJECT_DIR$/Xbee_Message_In.h" />
+        <option value="$PROJECT_DIR$/Xbee_Message_In.cpp" />
+        <option value="$PROJECT_DIR$/Xbee_Message_Out.cpp" />
+        <option value="$PROJECT_DIR$/Xbee_Message_Out.h" />
+        <option value="$PROJECT_DIR$/include/Xbee_Message.h" />
+        <option value="$PROJECT_DIR$/src/Xbee_Message.cpp" />
+        <option value="$PROJECT_DIR$/src/Xbee.cpp" />
+        <option value="$PROJECT_DIR$/src/Xbee_Message_Out.cpp" />
+        <option value="$PROJECT_DIR$/src/Xbee_Message_In.cpp" />
+        <option value="$PROJECT_DIR$/lib/common/src/Tcp_Client.cpp" />
+        <option value="$PROJECT_DIR$/lib/common/include/Tcp_Client.h" />
+        <option value="$PROJECT_DIR$/lib/common/include/Xbee_Message_Out.h" />
+        <option value="$PROJECT_DIR$/lib/common/src/Xbee_Message.cpp" />
+        <option value="$PROJECT_DIR$/lib/common/src/Tcp_client.cpp" />
+        <option value="$PROJECT_DIR$/lib/common/include/Tcp_server.h" />
+        <option value="$PROJECT_DIR$/test/tcp_test.cpp" />
+        <option value="$PROJECT_DIR$/lib/common/src/Xbee_Message_Out.cpp" />
+        <option value="$PROJECT_DIR$/lib/common/include/Xbee_Message_In.h" />
+        <option value="$PROJECT_DIR$/lib/common/src/Xbee_Message_In.cpp" />
+        <option value="$PROJECT_DIR$/lib/dumby/include/robot.h" />
+        <option value="$PROJECT_DIR$/lib/dumby/src/robot.cpp" />
+        <option value="$PROJECT_DIR$/lib/dumby/src/image.cpp" />
+        <option value="$PROJECT_DIR$/lib/dumby/include/definition.h" />
+        <option value="$PROJECT_DIR$/lib/dumby/include/Image.h" />
+        <option value="$PROJECT_DIR$/lib/dumby/src/Image.cpp" />
+        <option value="$PROJECT_DIR$/test/xbee_message_test.cpp" />
+        <option value="$PROJECT_DIR$/lib/dumby/include/Robot.h" />
+        <option value="$PROJECT_DIR$/lib/dumby/src/Robot.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/lib/dumby/robot_command.json" />
+        <option value="$PROJECT_DIR$/big.json" />
+        <option value="$PROJECT_DIR$/lib/dumby/src/Camera.cpp" />
+        <option value="$PROJECT_DIR$/lib/dumby/include/Camera.h" />
+        <option value="$PROJECT_DIR$/lib/segway/include/MessageSegway.h" />
+        <option value="$PROJECT_DIR$/README.MD" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/lib/common/src/Tcp_server.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="3010" />
+    <option name="y" value="45" />
+    <option name="width" value="830" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="libraire_superviseur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="libraire_superviseur" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="libraire_superviseur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="libraire_superviseur" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="libraire_superviseur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="libraire_superviseur" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="libraire_superviseur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="libraire_superviseur" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="ValgrindSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/include" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/dumby/src" />
+      <recent name="$PROJECT_DIR$/lib/dumby/include" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/segway/src" />
+      <recent name="$PROJECT_DIR$/segway/include" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.libraire_superviseur">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libraire_superviseur" RUN_TARGET_NAME="libraire_superviseur" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libraire_superviseur" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libraire_superviseur" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libraire_superviseur" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libraire_superviseur" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="libraire_superviseur" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libraire_superviseur" TARGET_NAME="libraire_superviseur" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libraire_superviseur" RUN_TARGET_NAME="libraire_superviseur">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.libraire_superviseur" />
+      <item itemvalue="Application.gmock" />
+      <item itemvalue="Application.gmock_main" />
+      <item itemvalue="Application.gtest" />
+      <item itemvalue="Application.gtest_main" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5232a53d-e324-4fd8-a109-dab99386c726" name="Default" comment="" />
+      <created>1525347834072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525347834072</updated>
+      <workItem from="1525347836295" duration="6340000" />
+      <workItem from="1525358137848" duration="19160000" />
+      <workItem from="1526282888843" duration="23076000" />
+      <workItem from="1526368656477" duration="13405000" />
+      <workItem from="1526396528910" duration="1260000" />
+      <workItem from="1526457051019" duration="1233000" />
+      <workItem from="1528793002836" duration="7000" />
+      <workItem from="1529924229259" duration="2609000" />
+      <workItem from="1529999214442" duration="620000" />
+      <workItem from="1530012736270" duration="25000" />
+      <workItem from="1531812603126" duration="11667000" />
+      <workItem from="1531834099623" duration="799000" />
+      <workItem from="1531834980431" duration="4126000" />
+      <workItem from="1531900141772" duration="20126000" />
+      <workItem from="1531984677010" duration="6023000" />
+      <workItem from="1532004745022" duration="5776000" />
+      <workItem from="1532071603348" duration="8120000" />
+      <workItem from="1532339734702" duration="7902000" />
+      <workItem from="1534747585773" duration="241000" />
+      <workItem from="1534747845689" duration="651000" />
+      <workItem from="1534753668316" duration="317000" />
+      <workItem from="1534754965073" duration="7334000" />
+    </task>
+    <task id="LOCAL-00001" summary="Création des classes liés au Xbee :&#10;- Xbee ( gere la puce Xbee)&#10;- Xbee_Message, Xbee_Message_In, Xbee_Message_Out qui gerent les trames&#10;de messages">
+      <created>1526370693302</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526370693302</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Suppression de Xbee.h par Serial.h (plus générique)&#10;- Modifications de l'arboresence des fichiers&#10;- Ajout de class Tcp_Server, Tcp_Client&#10;- Ajout de class spécifique au Segways">
+      <created>1531817145197</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531817145197</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- Ajout de class spécifique à Dumby&#10;- Ajout d'une méthode broadcast à Tcp_Server">
+      <created>1532005057860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532005057860</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Messages_Xbee - 2018.05.15 at 11h 22m 36s.xml">
+      <configuration name="Messages_Xbee" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="140817000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1919" y="24" width="1922" height="1033" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12966916" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32964602" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.2511062" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005208" side_tool="true" weight="0.2537797" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32900432" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32900432" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.125" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3300866" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.25324675" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005208" side_tool="true" weight="0.2537797" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32900432" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32900432" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Création des classes liés au Xbee :&#10;- Xbee ( gere la puce Xbee)&#10;- Xbee_Message, Xbee_Message_In, Xbee_Message_Out qui gerent les trames&#10;de messages" />
+    <MESSAGE value="- Suppression de Xbee.h par Serial.h (plus générique)&#10;- Modifications de l'arboresence des fichiers&#10;- Ajout de class Tcp_Server, Tcp_Client&#10;- Ajout de class spécifique au Segways" />
+    <MESSAGE value="- Ajout de class spécifique à Dumby&#10;- Ajout d'une méthode broadcast à Tcp_Server" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Ajout de class spécifique à Dumby&#10;- Ajout d'une méthode broadcast à Tcp_Server" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="frame[i]" />
+        <watch expression="result" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>result</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/include/x86_64-linux-gnu/bits/termios.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/googletest/googletest/include/gtest/gtest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="1431" selection-start-line="1431" selection-end-line="1431" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/googletest/googletest/src/gtest.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="2784" selection-start-line="2784" selection-end-line="2784" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Xbee.h" />
+    <entry file="file://$PROJECT_DIR$/src/Xbee.cpp" />
+    <entry file="file://$PROJECT_DIR$/lib/segway/src/MessageSegway.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tcp_test.h" />
+    <entry file="file://$PROJECT_DIR$/lib/common/include/Tcp_server.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common/include/Tcp_client.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/googletest/googlemock/include/gmock/gmock-matchers.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common/src/Tcp_client.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common/include/Xbee_Message_Out.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common/src/Xbee_Message_Out.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="55" selection-start-line="55" selection-end-line="56" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common/src/Xbee_Message_In.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common/include/Xbee_Message_In.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common/src/Xbee_Message.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common/include/Xbee_Message.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dumby/include/image.h" />
+    <entry file="file://$PROJECT_DIR$/lib/dumby/src/image.cpp" />
+    <entry file="file://$PROJECT_DIR$/lib/segway/src/Segway.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common/src/Serial.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/rapidjson/error/en.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/rapidjson/filereadstream.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big.json" />
+    <entry file="file://$PROJECT_DIR$/lib/common/include/Serial.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/xbee_message_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tcp_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dumby/include/Camera.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Bureau/diagramme_composant.png" />
+    <entry file="file://$PROJECT_DIR$/diagramme_composant.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dumby/include/Img.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dumby/include/definition.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dumby/src/Camera.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/segway/include/MessageSegway.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="48" column="51" lean-forward="true" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/segway/include/Segway.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dumby/include/Robot.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" selection-start-line="43" selection-end-line="50" />
+          <folding>
+            <element signature="e#119#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dumby/robot_command.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dumby/src/Img.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="178" column="21" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dumby/src/Robot.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3765">
+          <caret line="251" column="1" selection-start-line="251" selection-start-column="1" selection-end-line="251" selection-end-column="1" />
+          <folding>
+            <element signature="e#43#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common/src/Tcp_server.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

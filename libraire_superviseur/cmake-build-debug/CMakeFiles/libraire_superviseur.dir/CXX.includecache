@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home-local/senaneuc/Documents/Projet_Dumby_2K18/libraire_superviseur/lib/common/include/Tcp_server.h
+iostream
+-
+vector
+-
+
+/home-local/senaneuc/Documents/Projet_Dumby_2K18/libraire_superviseur/lib/common/src/Tcp_server.cpp
+../include/Tcp_server.h
+/home-local/senaneuc/Documents/Projet_Dumby_2K18/libraire_superviseur/lib/common/include/Tcp_server.h
+netinet/in.h
+-
+zconf.h
+-
+vector
+-
+
